@@ -1,0 +1,8 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "docwriter.style": "JSDoc",
+    "docwriter.hotkey.mac": "⌥ + .",
+    "svg.preview.background": "editor",
+    "source.organizeImports": true
+}
+  

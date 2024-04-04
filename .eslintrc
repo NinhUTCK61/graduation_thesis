@@ -3,6 +3,27 @@
   "extends": ["universe/native"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
-  }
+    "prettier/prettier": ["error",
+    {
+      "singleQuote": false,
+      "parser": "flow"
+    }],
+    // "import/order": ["error", {
+    //   "pathGroups": [
+    //     {
+    //       // "pattern": "~/**",
+    //       // "groups": [
+    //       //   // "index",
+    //       //   // "sibling",
+    //       //   // "parent",
+    //       //   // "internal",
+    //       //   // "external",
+    //       //   "builtin",
+    //       //   // "object",
+    //       //   // "type"
+    //       // ]
+    //     }
+    //   ]
+    // }]
+  },
 }
