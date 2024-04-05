@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack } from 'expo-router'
+import { Slot, Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import '@tamagui/core/reset.css'
 import { TRPCProvider } from 'utils/api'
@@ -16,14 +16,7 @@ const RootLayout = () => {
         The Stack component displays the current page.
         It also allows you to configure your screens 
       */}
-        <Stack
-          screenOptions={{
-            headerStyle: {
-              backgroundColor: '#f472b6',
-            },
-          }}
-        />
-        <StatusBar />
+       <Slot/>
       </TamaguiProvider>
     </TRPCProvider>
   )
