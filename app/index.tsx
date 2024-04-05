@@ -1,11 +1,7 @@
-import { Text } from "react-native";
+import { Text } from 'react-native'
 
 function Intro(): React.ReactElement {
-  return (
-    <Text>
-        Hello, World!
-    </Text>
-  );
+  return <Text>Hello, World!</Text>
 }
 
-export default Intro;
+export default Intro

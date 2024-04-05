@@ -1,17 +1,15 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "docwriter.style": "JSDoc",
-    "docwriter.hotkey.mac": "⌥ + .",
-    "svg.preview.background": "editor",
-    "source.organizeImports": true,
-    "files.eol": "\n",
-    "[javascript]": {
-       "files.eol": "\n"
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    },
-  "editor.formatOnSave": false,
-
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "docwriter.style": "JSDoc",
+  "docwriter.hotkey.mac": "⌥ + .",
+  "svg.preview.background": "editor",
+  "source.organizeImports": true,
+  "files.eol": "\n",
+  "[javascript]": {
+    "files.eol": "\n"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true
 }
-  
