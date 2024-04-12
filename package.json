@@ -48,6 +48,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@types/react": "~18.2.45",
+    "babel-preset-expo": "^10.0.1",
     "eslint": "^8.57.0",
     "eslint-plugin-ft-flow": "^3.0.7",
     "eslint-plugin-prettier": "5.0.0",

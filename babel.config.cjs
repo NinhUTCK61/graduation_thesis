@@ -1,8 +1,7 @@
 module.exports = {
   presets: [
     [
-      '@babel/eslint-parser',
-      '@babel/preset-env',
+      'babel-preset-expo',
       {
         targets: {
           node: 'current',
