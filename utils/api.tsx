@@ -5,7 +5,7 @@ import { inferRouterInputs, inferRouterOutputs } from '@trpc/server'
 import Constants from 'expo-constants'
 import React from 'react'
 import superjson from 'superjson'
-import type { AppRouter } from '../server/api/root'
+import type { AppRouter } from '../../server/api/root'
 
 /**
  * A set of typesafe hooks for consuming your API.

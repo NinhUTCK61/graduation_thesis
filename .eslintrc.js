@@ -11,7 +11,7 @@ module.exports = {
         'react/react-in-jsx-scope': 'off',
         'no-shadow': 'off',
         'no-undef': 'off',
-        'prettier/prettier': 'error',
+        'prettier/prettier': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': ['error'],
         semi: 0,
